@@ -336,7 +336,7 @@ init();
 const _h = s => [...s].reduce((a,c)=>Math.imul(31,a)+c.charCodeAt(0)|0,0).toString(16);
 function checkPw(){
   const v = document.getElementById('pw-input').value;
-  if(_h(v) === 'cbb511f5') {
+  if(_h(v) === '-344aee0b') {
     document.getElementById('pw-overlay').style.display='none';
     document.getElementById('app-content').style.display='block';
     buildMTDCharts();
